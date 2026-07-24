@@ -1,0 +1,24 @@
+generated: '2026-07-20'
+method: searched
+source: live HTTP probes of https://www.berrykitchen.com
+host: https://www.berrykitchen.com
+note: >-
+  No /.well-known/ discovery surface is served. The berrykitchen.com apex now
+  302-redirects to an unrelated third-party storefront (thecheesetour.com), and
+  the www host returns a Cloudflare error 1000 ("DNS points to prohibited IP"),
+  so every probe below is a host-level error rather than a document-level 404.
+  The company's web presence has not been maintained since the 2019 Yummy Corp
+  acquisition. Recorded so later rounds do not re-probe a dead host.
+documents:
+- path: /.well-known/security.txt
+  status: 403
+- path: /.well-known/openid-configuration
+  status: 403
+- path: /.well-known/oauth-authorization-server
+  status: 403
+- path: /.well-known/api-catalog
+  status: 403
+- path: /.well-known/ai-plugin.json
+  status: 403
+- path: /llms.txt
+  status: 403

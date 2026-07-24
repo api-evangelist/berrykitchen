@@ -1,0 +1,15 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: berrykitchen.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 11 14:01:15 2026 GMT
+  hsts: false
+domains:
+- domain: berrykitchen.com
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
