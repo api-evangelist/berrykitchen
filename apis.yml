@@ -34,7 +34,7 @@ x-status-detail: Acquired by Yummy Corp in 2019 and operated as part of Yummybox
   Cynthia Tenggara has since exited. No live company website - the berrykitchen.com apex
   redirects to an unrelated third-party storefront and the www host returns a Cloudflare
   error 1000 (DNS points to prohibited IP).
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
