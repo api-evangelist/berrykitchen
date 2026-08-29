@@ -33,6 +33,9 @@ description: BerryKitchen (Berry Kitchen) was an Indonesian online catering and 
   portal or SDKs, and its domain is no longer operated by the company, so this profile is
   catalogued for historical and VC portfolio-graph purposes only.
 url: https://raw.githubusercontent.com/api-evangelist/berrykitchen/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "BerryKitchen never published a public API, developer portal or SDKs, and its domain is no longer operated by the company, so this profile is catalogued for historical and VC portfolio-graph purposes o"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
